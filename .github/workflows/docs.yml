@@ -66,8 +66,7 @@ jobs:
                 {
                   text: 'Roadmap',
                   items: [
-                    { text: 'Development Phases', link: '/roadmap/phases' },
-                    { text: 'Milestones', link: '/roadmap/milestones' }
+                    { text: 'Development Phases', link: '/roadmap/phases' }
                   ]
                 }
               ],
