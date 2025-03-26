@@ -2,6 +2,12 @@
 
 ## Core Systems
 
+### Character System
+- Dynamic character roster featuring community-created blockchain meme characters
+- Each character can be customized with unique skins and emotes
+- Special abilities and traits based on the meme's origin and popularity
+- Character power balanced through community feedback and voting
+
 ### Movement System
 1. **Basic Movement**
    - Sprint (Hold Shift)
@@ -22,41 +28,10 @@
    - Teleport Pads
 
 ### Combat System
-
-1. **Weapons**
-   - **Close Range**
-     - Shotguns
-     - SMGs
-     - Melee Weapons
-   
-   - **Mid Range**
-     - Assault Rifles
-     - Burst Rifles
-     - Combat Pistols
-   
-   - **Long Range**
-     - Sniper Rifles
-     - DMRs
-     - Bows
-
-2. **Building Combat**
-   - **Quick Build**
-     - Walls (Q)
-     - Ramps (E)
-     - Floors (F)
-     - Roofs (R)
-   
-   - **Edit System**
-     - Quick Edit (G)
-     - Reset Edit (Right Click)
-     - Pre-edits
-     - Edit Patterns
-
-3. **Resource Management**
-   - Wood (Fast build, low HP)
-   - Stone (Medium build, medium HP)
-   - Metal (Slow build, high HP)
-   - Special Materials (NFT-based)
+- Fast-paced battle royale combat with building mechanics
+- Character-specific abilities reflecting their meme origins
+- Weapon skins themed after crypto market events (Bull Run Rifle, Bear Market Bash, etc.)
+- Special moves and emotes based on popular crypto memes
 
 ### Health System
 
@@ -101,137 +76,67 @@
    - Clutch Moments
 
 ### Map Features
-
-1. **Points of Interest**
-   - Named Locations
-   - Landmark Buildings
-   - Special Zones
-   - Hidden Areas
-
-2. **Dynamic Elements**
-   - Weather System
-   - Day/Night Cycle
-   - Environmental Hazards
-   - Special Events
-
-3. **Loot Distribution**
-   - Floor Loot
-   - Chest Spawns
-   - Supply Drops
-   - Special Crates
+- Dynamic map elements influenced by blockchain events
+- Special locations themed after famous crypto moments
+- Interactive elements that respond to market conditions
+- Community-designed points of interest
+- Secret areas unlocked by solving crypto puzzles
 
 ### Progression Systems
-
-1. **Experience Points**
-   - Combat XP
-   - Survival XP
-   - Challenge XP
-   - Event XP
-
-2. **Battle Pass**
-   - Free Tier
-   - Premium Tier
-   - Challenge System
-   - Exclusive Rewards
-
-3. **Ranking System**
-   - Competitive Points
-   - Skill Rating
-   - League System
-   - Season Rewards
+- Experience points earned through gameplay and community contribution
+- Character leveling system tied to meme popularity
+- Battle pass featuring community-created content
+- Special rewards for content creators and community contributors
+- Seasonal rankings based on both skill and creativity
 
 ## Blockchain Integration
 
 ### NFT Equipment
-
-1. **Character Skins**
-   - Custom Animations
-   - Special Effects
-   - Voice Lines
-   - Emotes
-
-2. **Weapon Skins**
-   - Visual Effects
-   - Sound Effects
-   - Kill Effects
-   - Stat Tracking
-
-3. **Building Styles**
-   - Material Appearance
-   - Build Animations
-   - Edit Effects
-   - Structure Designs
+- Community-created weapon skins and character costumes
+- Historical value tracking for meme-based items
+- Trading system for character variants and skins
+- Special editions for significant crypto events
+- Collaborative creation tools for community artists
 
 ### Token Integration
-
-1. **Match Stakes**
-   - Entry Fees
-   - Prize Pools
-   - Token Rewards
-   - Bonus Multipliers
-
-2. **Economy System**
-   - Resource Trading
-   - Item Market
-   - Service Exchange
-   - Token Burning
+- $ROYALE token rewards for community contributions
+- Voting power for character and content approval
+- Staking mechanisms for exclusive meme character access
+- Creator royalties for popular character designs
+- Tournament prize pools with community contributions
 
 ## Special Features
 
-### Tournament System
+### Meme Creation Studio
+- In-game character creation and customization tools
+- Template system for rapid meme character development
+- Community collaboration features
+- Real-time preview and testing capabilities
+- Integration with popular meme creation tools
 
-1. **Entry Requirements**
-   - Token Stakes
-   - Rank Minimums
-   - Team Formation
-   - Equipment Rules
-
-2. **Format Types**
-   - Solo Tournaments
-   - Duo Competitions
-   - Squad Events
-   - Custom Games
-
-### Custom Games
-
-1. **Game Modes**
-   - Practice Mode
-   - Creative Mode
-   - Team Battles
-   - Special Events
-
-2. **Settings Customization**
-   - Loot Tables
-   - Circle Settings
-   - Building Rules
-   - Combat Parameters
+### Community Events
+- Weekly meme character contests
+- Special events during major crypto conferences
+- Community-driven tournaments
+- Seasonal themed competitions
+- Cross-promotion opportunities with crypto projects
 
 ## Technical Implementation
 
 ### Performance Optimization
+- Efficient character asset loading system
+- Dynamic LOD for complex meme characters
+- Optimized network synchronization for character actions
+- Smart caching for frequently used meme content
+- Bandwidth-efficient asset streaming
 
-1. **Client-Side**
-   - Building Preview System
-   - Predictive Aiming
-   - Asset Streaming
-   - LOD System
+### Community Tools
+- SDK for character creation and modification
+- API access for community developers
+- Modding support for custom game modes
+- Analytics dashboard for creators
+- Community feedback and suggestion system
 
-2. **Server-Side**
-   - Anti-Cheat Integration
-   - Lag Compensation
-   - Build Verification
-   - Transaction Processing
+---
 
-### Quality of Life
-
-1. **UI/UX Features**
-   - Custom HUD
-   - Build Mode Grid
-   - Inventory Management
-   - Quick Actions
-
-2. **Social Features**
-   - Team Communication
-   - Friend System
-   - Clan Support
-   - Trading Platform 
+*Last updated: March 2024* 
