@@ -6,8 +6,8 @@ Welcome to the official documentation of Project Royale, a next-generation Battl
 
 - [📄 Read our Whitepaper](/whitepaper/overview)
 - [🗺 View our Roadmap](/roadmap/phases)
-- [🎮 Gameplay Guide](/gameplay/README)
-- [⛓ Blockchain Integration](/blockchain/README)
+- [🎮 Game Overview](/whitepaper/overview#gameplay)
+- [⛓ Blockchain Integration](/whitepaper/technology#blockchain-infrastructure)
 
 ## About Project Royale
 
@@ -23,7 +23,7 @@ Project Royale combines the thrill of Battle Royale gameplay with blockchain tec
 
 ## Getting Started
 
-1. [Read the Whitepaper](/whitepaper/overview)
+1. [Read the Overview](/whitepaper/overview)
 2. [Check Development Status](/roadmap/phases)
-3. [Join our Community](https://discord.gg/projectroyale)
-4. [Follow Technical Updates](https://github.com/Blockchain1Royale/Project-Royale) 
+3. [Learn About Our Technology](/whitepaper/technology)
+4. [Follow Our Vision](/whitepaper/vision) 

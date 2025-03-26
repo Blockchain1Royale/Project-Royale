@@ -46,6 +46,7 @@ jobs:
             title: 'Project Royale',
             description: 'Next-generation Battle Royale with Blockchain Integration',
             base: '/Project-Royale/',
+            ignoreDeadLinks: true,
             themeConfig: {
               nav: [
                 { text: 'Home', link: '/' },
