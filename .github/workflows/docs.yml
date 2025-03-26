@@ -9,6 +9,7 @@ on:
       - 'src/**'
       - '*.md'
       - 'package.json'
+      - 'tsconfig.json'
 
 jobs:
   build-documentation:
@@ -24,7 +25,9 @@ jobs:
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          npm install -D typescript @types/node
 
       - name: Configure VitePress
         run: |
@@ -68,7 +71,8 @@ jobs:
           EOF
 
       - name: Build documentation
-        run: npx vitepress build docs
+        run: |
+          npm run docs:build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
