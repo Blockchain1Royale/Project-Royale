@@ -3,6 +3,12 @@
 A next-generation Battle Royale game with blockchain integration, built with Unreal Engine 5.
 
 [![Documentation Status](https://github.com/Blockchain1Royale/Project-Royale/actions/workflows/docs.yml/badge.svg)](https://blockchain1royale.github.io/Project-Royale/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.3-blue)](https://www.unrealengine.com)
+
+[📚 Documentation](https://blockchain1royale.github.io/Project-Royale/) | [🎮 Play Now](https://projectroyale.com) | [💬 Discord](https://discord.gg/projectroyale) | [🐦 Twitter](https://twitter.com/ProjectRoyale)
 
 ## Overview 🌟
 
@@ -16,6 +22,29 @@ Project Royale combines the thrill of Battle Royale gameplay with blockchain tec
 - **Tournament System**: Competitive play with token stakes
 - **Cross-Platform**: PC-first development with planned mobile support
 
+## Quick Start 🚀
+
+```bash
+# Clone the repository
+git clone https://github.com/Blockchain1Royale/Project-Royale.git
+
+# Navigate to the directory
+cd Project-Royale
+
+# Install dependencies
+npm install
+
+# Set up development environment
+./setup.sh
+```
+
+## Prerequisites 📋
+
+- Unreal Engine 5.3 or later
+- Xcode 15 or later (for macOS development)
+- Node.js 18 or later (for documentation)
+- Git LFS
+
 ## Documentation 📚
 
 Visit our [documentation site](https://blockchain1royale.github.io/Project-Royale/) for detailed information about:
@@ -24,33 +53,23 @@ Visit our [documentation site](https://blockchain1royale.github.io/Project-Royal
 - Development Roadmap
 - Technical Specifications
 
-## Development Setup 🛠️
+## Development 🛠️
 
-### Prerequisites
+### Branch Structure
 
-- Unreal Engine 5.3 or later
-- Xcode 15 or later (for macOS development)
-- Node.js 18 or later (for documentation)
-- Git LFS
+- `main` - Production-ready code
+- `develop` - Development branch
+- `feature/*` - Feature branches
+- `bugfix/*` - Bug fix branches
+- `release/*` - Release branches
 
-### Installation
+### Development Workflow
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Blockchain1Royale/Project-Royale.git
-   cd Project-Royale
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Set up development environment:
-   ```bash
-   # Initialize Unreal project
-   ./setup.sh
-   ```
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
 ## Contributing 🤝
 
@@ -60,11 +79,17 @@ We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.
 - Development Workflow
 - Testing Requirements
 
+Before contributing, please read our [Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Security 🔒
+
+For security issues, please see our [Security Policy](SECURITY.md).
+
 ## License 📄
 
-This project is licensed under the [MIT License](LICENSE)
+This project is licensed under the [MIT License](LICENSE).
 
-## Contact 📧
+## Community 💬
 
 - Discord: [Join our server](https://discord.gg/projectroyale)
 - Twitter: [@ProjectRoyale](https://twitter.com/ProjectRoyale)
@@ -74,4 +99,8 @@ This project is licensed under the [MIT License](LICENSE)
 
 - Unreal Engine Team
 - Our amazing community
-- All contributors 
+- All contributors
+
+## Support the Project ⭐
+
+If you find this project useful, please consider giving it a star on GitHub! 
