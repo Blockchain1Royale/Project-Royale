@@ -8,6 +8,7 @@ on:
       - 'docs/**'
       - 'src/**'
       - '*.md'
+      - 'package.json'
 
 jobs:
   build-documentation:
@@ -22,18 +23,19 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Install VitePress
-        run: |
-          npm init -y
-          npm install -D vitepress
+      - name: Install dependencies
+        run: npm install
 
       - name: Configure VitePress
         run: |
           mkdir -p docs/.vitepress
-          cat > docs/.vitepress/config.js << 'EOF'
-          export default {
+          cat > docs/.vitepress/config.ts << 'EOF'
+          import { defineConfig } from 'vitepress'
+          
+          export default defineConfig({
             title: 'Project Royale',
             description: 'Next-generation Battle Royale with Blockchain Integration',
+            base: '/Project-Royale/',
             themeConfig: {
               nav: [
                 { text: 'Home', link: '/' },
@@ -57,14 +59,16 @@ jobs:
                     { text: 'Milestones', link: '/roadmap/milestones' }
                   ]
                 }
+              ],
+              socialLinks: [
+                { icon: 'github', link: 'https://github.com/Blockchain1Royale/Project-Royale' }
               ]
             }
-          }
+          })
           EOF
 
       - name: Build documentation
-        run: |
-          npm run docs:build || npx vitepress build docs
+        run: npx vitepress build docs
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
