@@ -22,21 +22,55 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Install dependencies
+      - name: Install VitePress
         run: |
-          npm install -g gitbook-cli
-          npm install
+          npm init -y
+          npm install -D vitepress
 
-      - name: Setup GitBook
+      - name: Configure VitePress
         run: |
-          gitbook install
-          gitbook build
+          mkdir -p docs/.vitepress
+          cat > docs/.vitepress/config.js << 'EOF'
+          export default {
+            title: 'Project Royale',
+            description: 'Next-generation Battle Royale with Blockchain Integration',
+            themeConfig: {
+              nav: [
+                { text: 'Home', link: '/' },
+                { text: 'Whitepaper', link: '/whitepaper/overview' },
+                { text: 'Roadmap', link: '/roadmap/phases' }
+              ],
+              sidebar: [
+                {
+                  text: 'Whitepaper',
+                  items: [
+                    { text: 'Overview', link: '/whitepaper/overview' },
+                    { text: 'Vision & Mission', link: '/whitepaper/vision' },
+                    { text: 'Technology Stack', link: '/whitepaper/technology' },
+                    { text: 'Tokenomics', link: '/whitepaper/tokenomics' }
+                  ]
+                },
+                {
+                  text: 'Roadmap',
+                  items: [
+                    { text: 'Development Phases', link: '/roadmap/phases' },
+                    { text: 'Milestones', link: '/roadmap/milestones' }
+                  ]
+                }
+              ]
+            }
+          }
+          EOF
+
+      - name: Build documentation
+        run: |
+          npm run docs:build || npx vitepress build docs
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_book
+          publish_dir: docs/.vitepress/dist
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 'docs: update documentation' 
