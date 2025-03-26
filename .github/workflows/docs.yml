@@ -10,6 +10,7 @@ on:
       - '*.md'
       - 'package.json'
       - 'tsconfig.json'
+      - 'package-lock.json'
 
 jobs:
   build-documentation:
@@ -26,9 +27,13 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Clean install dependencies
+      - name: Install dependencies
         run: |
-          npm ci
+          if [ -f package-lock.json ]; then
+            npm ci
+          else
+            npm install
+          fi
           npm run docs:clean || true
 
       - name: Configure VitePress
