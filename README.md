@@ -7,8 +7,9 @@ A next-generation Battle Royale game with blockchain integration, built with Unr
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg)](CODE_OF_CONDUCT.md)
 [![Unreal Engine](https://img.shields.io/badge/Unreal%20Engine-5.3-blue)](https://www.unrealengine.com)
+[![Follow on X](https://img.shields.io/twitter/follow/RoyaleLabs?style=social)](https://x.com/RoyaleLabs)
 
-[📚 Documentation](https://blockchain1royale.github.io/Project-Royale/) | [🎮 Play Now](https://projectroyale.com) | [💬 Discord](https://discord.gg/projectroyale) | [🐦 Twitter](https://twitter.com/ProjectRoyale)
+[📚 Documentation](https://blockchain1royale.github.io/Project-Royale/) | [🎮 Play Now](https://royalelabs.fun) | [🐦 Follow us on X](https://x.com/RoyaleLabs)
 
 ## Overview 🌟
 
@@ -91,9 +92,15 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Community 💬
 
-- Discord: [Join our server](https://discord.gg/projectroyale)
-- Twitter: [@ProjectRoyale](https://twitter.com/ProjectRoyale)
-- Email: contact@projectroyale.com
+- X/Twitter: [@RoyaleLabs](https://x.com/RoyaleLabs)
+- Email: contact@royalelabs.fun
+- Website: [royalelabs.fun](https://royalelabs.fun)
+
+## Support 🤝
+
+- Technical Support: support@royalelabs.fun
+- Business Inquiries: business@royalelabs.fun
+- Security Reports: security@royalelabs.fun
 
 ## Acknowledgments 🙏
 
