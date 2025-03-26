@@ -1,0 +1,9 @@
+root: ./
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  /overview: /README.md
+  /gameplay: /gameplay/README.md
+  /blockchain: /blockchain/README.md 

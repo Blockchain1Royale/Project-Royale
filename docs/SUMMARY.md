@@ -2,19 +2,26 @@
 
 * [Project Royale](README.md)
 
-## Gameplay
-* [Overview](gameplay/README.md)
-* [Movement System](gameplay/movement.md)
-* [Building System](gameplay/building.md)
-* [Combat System](gameplay/combat.md)
-* [Resource Management](gameplay/resources.md)
+## 📄 Whitepaper
+* [Overview](whitepaper/overview.md)
+* [Vision & Mission](whitepaper/vision.md)
+* [Technology Stack](whitepaper/technology.md)
+* [Tokenomics](whitepaper/tokenomics.md)
 
-## Blockchain
+## 🗺 Roadmap
+* [Development Phases](roadmap/phases.md)
+* [Milestones](roadmap/milestones.md)
+
+## 🎮 Gameplay
+* [Overview](gameplay/README.md)
+* [Game Mechanics](gameplay/mechanics.md)
+* [Characters & Items](gameplay/characters.md)
+
+## ⛓ Blockchain Integration
 * [Overview](blockchain/README.md)
-* [Token Economy](blockchain/token-economy.md)
-* [NFT System](blockchain/nft-system.md)
-* [Smart Contracts](blockchain/smart-contracts.md)
-* [Wallet Integration](blockchain/wallet-integration.md)
+* [Smart Contracts](blockchain/contracts.md)
+* [NFT System](blockchain/nft.md)
+* [Wallet Integration](blockchain/wallet.md)
 
 ## Technical
 * [Overview](technical/README.md)
