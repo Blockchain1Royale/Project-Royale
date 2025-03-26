@@ -14,6 +14,8 @@ on:
 jobs:
   build-documentation:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -24,10 +26,10 @@ jobs:
           node-version: '18'
           cache: 'npm'
 
-      - name: Install dependencies
+      - name: Clean install dependencies
         run: |
-          npm install
-          npm install -D typescript @types/node
+          npm ci
+          npm run docs:clean || true
 
       - name: Configure VitePress
         run: |
@@ -71,8 +73,7 @@ jobs:
           EOF
 
       - name: Build documentation
-        run: |
-          npm run docs:build
+        run: npm run docs:build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
