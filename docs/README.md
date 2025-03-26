@@ -2,6 +2,8 @@
 
 Welcome to the official documentation of Project Royale, a next-generation Battle Royale game with blockchain integration.
 
+> **Note**: This documentation is actively maintained and synchronized with GitBook.
+
 ## Quick Links
 
 - [Game Mechanics](gameplay/mechanics.md)
