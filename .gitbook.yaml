@@ -7,4 +7,16 @@ structure:
 redirects:
   gameplay/mechanics: gameplay/mechanics.md
   whitepaper/tokenomics: whitepaper/tokenomics.md
-  roadmap/milestones: roadmap/milestones.md 
+  roadmap/milestones: roadmap/milestones.md
+
+# GitBook configuration
+title: RoyaleLabs Documentation
+description: Official documentation for Project Royale
+author: RoyaleLabs Team
+
+# Sync settings
+sync:
+  git:
+    enabled: true
+    default_branch: main
+    sync_on_push: true 
