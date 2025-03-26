@@ -1,0 +1,10 @@
+root: ./docs/
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+redirects:
+  gameplay/mechanics: gameplay/mechanics.md
+  whitepaper/tokenomics: whitepaper/tokenomics.md
+  roadmap/milestones: roadmap/milestones.md 

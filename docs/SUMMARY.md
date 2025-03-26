@@ -1,36 +1,29 @@
 # Table of contents
 
-* [Project Royale](README.md)
+## Overview
+* [Introduction](README.md)
+* [Quick Start](quickstart.md)
 
-## 📄 Whitepaper
-* [Overview](whitepaper/overview.md)
-* [Vision & Mission](whitepaper/vision.md)
-* [Technology Stack](whitepaper/technology.md)
-* [Tokenomics](whitepaper/tokenomics.md)
-
-## 🗺 Roadmap
-* [Development Phases](roadmap/phases.md)
-* [Milestones](roadmap/milestones.md)
-
-## 🎮 Gameplay
-* [Overview](gameplay/README.md)
+## Gameplay
 * [Game Mechanics](gameplay/mechanics.md)
-* [Characters & Items](gameplay/characters.md)
+* [Battle System](gameplay/battle-system.md)
+* [Economy](gameplay/economy.md)
 
-## ⛓ Blockchain Integration
-* [Overview](blockchain/README.md)
-* [Smart Contracts](blockchain/contracts.md)
-* [NFT System](blockchain/nft.md)
-* [Wallet Integration](blockchain/wallet.md)
+## Whitepaper
+* [Tokenomics](whitepaper/tokenomics.md)
+* [Smart Contracts](whitepaper/smart-contracts.md)
+* [NFT System](whitepaper/nft-system.md)
+
+## Roadmap
+* [Milestones](roadmap/milestones.md)
+* [Development Updates](roadmap/updates.md)
 
 ## Technical
-* [Overview](technical/README.md)
-* [Installation](technical/installation.md)
-* [Development Setup](technical/development-setup.md)
 * [Architecture](technical/architecture.md)
-* [Performance](technical/performance.md)
+* [API Reference](technical/api-reference.md)
+* [Smart Contract Documentation](technical/smart-contracts.md)
 
-## Contributing
-* [Guidelines](CONTRIBUTING.md)
-* [Code of Conduct](CODE_OF_CONDUCT.md)
-* [Style Guide](technical/style-guide.md)
+## Community
+* [Contributing](contributing.md)
+* [Code of Conduct](code-of-conduct.md)
+* [Support](support.md)
