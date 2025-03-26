@@ -1,0 +1,1 @@
+import{_ as a,c as t,o as i,ae as l}from"./chunks/framework.BtU4-EH2.js";const m=JSON.parse('{"title":"Project Royale","description":"","frontmatter":{},"headers":[],"relativePath":"README.md","filePath":"README.md"}'),n={name:"README.md"};function o(r,e,c,h,s,d){return i(),t("div",null,e[0]||(e[0]=[l("",18)]))}const g=a(n,[["render",o]]);export{m as __pageData,g as default};
